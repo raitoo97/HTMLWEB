@@ -1,8 +1,25 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #e6e6e6;
   font-size: large;
 }
+
 a {
-  color: red;
+  color: #fcb93e;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+h2 {
+  color: #fcb93e;
+}
+
+h3 {
+  color: #c8892b;
+}
+
+h4 {
+  color: #9a9a9a;
 }
