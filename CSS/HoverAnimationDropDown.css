@@ -3,7 +3,7 @@
   position: relative;
   display: inline-block;
   ul {
-    padding-left: 0%;
+    padding-left: 0;
   }
 }
 .dropdown-content {
@@ -35,4 +35,15 @@
 }
 .dropdown-content a:hover {
   background: #f3f4f6;
+}
+.arrow {
+  display: inline-block;
+  font-size: 0.7em;
+  margin-left: 4px;
+  transform: translateY(-2px);
+  transition: transform 0.3s;
+}
+
+.dropdown:hover .arrow {
+  transform: translateY(-2px) rotate(180deg);
 }
