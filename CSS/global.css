@@ -2,6 +2,8 @@ body {
   background-color: #000000;
   color: #e6e6e6;
   font-size: large;
+  width: 50%;
+  margin: 0 auto;
 }
 
 a {
