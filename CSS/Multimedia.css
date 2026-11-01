@@ -12,6 +12,7 @@
   flex-direction: row;
   gap: 20px;
   align-items: flex-start;
+  justify-content: flex-start;
   img {
     width: 15%;
   }
@@ -19,17 +20,17 @@
     margin: 0;
   }
 
-  .pieza_escopeta {
+  .pieza_arma {
     width: 200px;
     margin: 0;
     flex-shrink: 0;
   }
 
-  .pieza_escopeta img {
+  .pieza_arma img {
     width: 100%;
   }
 
-  .pieza_escopeta figcaption {
+  .pieza_arma figcaption {
     font-size: 14px;
   }
 }
