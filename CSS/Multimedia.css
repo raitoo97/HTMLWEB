@@ -1,6 +1,6 @@
-.imagenesfloat{
-   float: left;
-    margin: 0;
+.imagenesfloat {
+  float: left;
+  margin: 0;
 }
 .logo {
   width: 180px;
@@ -12,13 +12,10 @@
   flex-direction: row;
   gap: 20px;
   align-items: flex-start;
-}
-.fase img {
-  width: 15%;
-}
-.fase p {
-  margin-top: 0;
-}
-.fase div{
-  flex-grow: 1;
+  img {
+    width: 15%;
+  }
+  p {
+    margin: 0;
+  }
 }
