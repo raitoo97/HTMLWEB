@@ -10,7 +10,6 @@
 .ficha caption {
   background-color: #cc0000;
   color: #ffffff;
-  font-weight: bold;
   padding: 8px;
 }
 
@@ -35,5 +34,18 @@
 }
 
 .ficha figure figcaption {
+  text-align: center;
+}
+
+.ficha .sinborder {
+  border: none;
+}
+
+.ficha tfoot {
+  background-color: #cc0000;
+}
+
+.ficha tfoot td {
+  color: #ffffff;
   text-align: center;
 }
