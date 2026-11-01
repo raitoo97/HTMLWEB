@@ -7,7 +7,7 @@
   vertical-align: middle;
   margin-right: 0px;
 }
-.fase {
+.imagen-texto {
   display: flex;
   flex-direction: row;
   gap: 20px;
