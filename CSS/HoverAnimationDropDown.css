@@ -21,7 +21,6 @@
   margin: 0%;
   list-style: none;
 }
-
 .dropdown:hover .dropdown-content {
   opacity: 1;
   transform: translateY(0);
@@ -43,11 +42,9 @@
   transform: translateY(-2px);
   transition: transform 0.3s;
 }
-
 .dropdown:hover .arrow {
   transform: translateY(-2px) rotate(180deg);
 }
-
 .btnpulse {
   display: inline-block;
   padding: 0.5rem 1rem;
