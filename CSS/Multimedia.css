@@ -7,6 +7,7 @@
   vertical-align: middle;
   margin-right: 0px;
 }
+/* sin wrap */
 .imagen-texto {
   display: flex;
   flex-direction: row;
@@ -19,21 +20,8 @@
   p {
     margin: 0;
   }
-
-  .pieza_arma {
-    width: 200px;
-    margin: 0;
-    flex-shrink: 0;
-  }
-
-  .pieza_arma img {
-    width: 100%;
-  }
-
-  .pieza_arma figcaption {
-    font-size: 14px;
-  }
 }
+/* Con wrap */
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -50,4 +38,8 @@
 
 .pieza_arma img {
   width: 100%;
+}
+
+.pieza_arma figcaption {
+  font-size: 14px;
 }
