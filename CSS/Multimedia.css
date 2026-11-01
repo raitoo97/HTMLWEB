@@ -18,4 +18,18 @@
   p {
     margin: 0;
   }
+
+  .pieza_escopeta {
+    width: 200px;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .pieza_escopeta img {
+    width: 100%;
+  }
+
+  .pieza_escopeta figcaption {
+    font-size: 14px;
+  }
 }
