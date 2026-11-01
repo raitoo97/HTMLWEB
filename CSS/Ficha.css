@@ -49,3 +49,9 @@
   color: #ffffff;
   text-align: center;
 }
+
+.ficha caption h2 {
+  color: #ffffff;
+  font-size: 1em;
+  margin: 0;
+}
