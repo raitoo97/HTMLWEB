@@ -1,9 +1,24 @@
 .imagenesfloat{
-    float: left;
-    margin: 20px;
+   float: left;
+    margin: 0;
 }
 .logo {
   width: 180px;
   vertical-align: middle;
   margin-right: 0px;
+}
+.fase {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+.fase img {
+  width: 15%;
+}
+.fase p {
+  margin-top: 0;
+}
+.fase div{
+  flex-grow: 1;
 }
