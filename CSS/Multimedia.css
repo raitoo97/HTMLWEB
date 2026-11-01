@@ -34,3 +34,20 @@
     font-size: 14px;
   }
 }
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.pieza_arma {
+  width: 200px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.pieza_arma img {
+  width: 100%;
+}
