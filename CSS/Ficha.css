@@ -34,7 +34,6 @@
 
 .ficha figure img {
   width: 100%;
-  margin: 0;
 }
 
 .ficha figure figcaption {
@@ -43,10 +42,6 @@
 
 .ficha .sinborder {
   border: none;
-}
-
-.ficha tfoot {
-  background-color: #cc0000;
 }
 
 .ficha caption h2 {
