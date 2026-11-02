@@ -10,21 +10,6 @@
   }
 }
 
-@keyframes temblar {
-  0% {
-    rotate: 0deg;
-  }
-  25% {
-    rotate: -2deg;
-  }
-  75% {
-    rotate: 2deg;
-  }
-  100% {
-    rotate: 0deg;
-  }
-}
-
 .imagenesfloat {
   float: left;
   margin: 0 20px 10px 0;
@@ -111,16 +96,14 @@
 .retrato-grande:hover img {
   border-color: #fcb93e;
   transform: scale(1.05);
-  animation:
-    titilar 1s infinite,
-    temblar 1s ease-in-out infinite;
+  animation:titilar 1s infinite;
 }
 
 .retrato-grande:hover figcaption {
   translate: 0 20px;
 }
 
-.rol {
+.profesion {
   display: block;
   font-size: 12px;
   color: #b3b3b3;
