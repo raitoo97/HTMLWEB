@@ -93,3 +93,14 @@ form option {
 form option:checked {
   background-color: #4c0b0b;
 }
+
+.opciones .opciones {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.opciones .opciones label {
+  margin-right: 15px;
+}

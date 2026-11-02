@@ -104,7 +104,7 @@
             </p>
         </article>
         <article>
-            <form action="" method="get">
+            <form action="./Confirmacion.html" method="get">
                 <fieldset class="opciones">
                     <legend>Dejanos tu mensaje</legend>
                     <section class="campo">
@@ -117,9 +117,14 @@
                     </section>
                     <fieldset class="opciones">
                         <legend>Motivo</legend>
-                        <label><input type="radio" name="motivo" value="consulta" /> Consulta</label>
-                        <label><input type="radio" name="motivo" value="error" /> Reportar un error</label>
-                        <label><input type="radio" name="motivo" value="sugerencia" /> Sugerencia</label>
+                        <input type="radio" name="motivo" id="consulta" value="consulta" />
+                        <label for="consulta">Consulta</label>
+                        <input type="radio" name="motivo" id="error" value="error" />
+                        <label for="error">Reportar un error</label>
+                        <input type="radio" name="motivo" id="sugerencia" value="sugerencia" />
+                        <label for="sugerencia">Sugerencia</label>
+                        <input type="radio" name="motivo" id="otros" value="otros" />
+                        <label for="otros">Otros</label>
                     </fieldset>
                     <section class="campo">
                         <label for="mensaje">Mensaje</label>
