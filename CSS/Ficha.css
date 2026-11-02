@@ -10,7 +10,6 @@
 .ficha img.arma {
   width: 100%;
   display: block;
-  height: 100%;
 }
 
 .ficha caption {
@@ -48,11 +47,6 @@
 
 .ficha tfoot {
   background-color: #cc0000;
-}
-
-.ficha tfoot td {
-  color: #ffffff;
-  text-align: center;
 }
 
 .ficha caption h2 {
