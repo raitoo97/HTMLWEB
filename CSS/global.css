@@ -2,6 +2,9 @@ body {
   background-color: #000000;
   color: #e6e6e6;
   font-size: large;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 10px;
 }
 
 a {
@@ -17,9 +20,19 @@ h2 {
 }
 
 h3 {
-  color: #c8892b;
+  color: #ff9900;
 }
 
 h4 {
-  color: #9a9a9a;
+  color: #c8892b;
 }
+
+h5 {
+  color: #b8860b;
+}
+p::first-letter {
+  color: #e6e6e6;
+  font-size: 25px;
+  font-weight: bold;
+}
+

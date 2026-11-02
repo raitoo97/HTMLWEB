@@ -1,0 +1,61 @@
+.ficha {
+  float: right;
+  width: 300px;
+  margin: 0 0 20px 20px;
+  border: 2px solid #cc0000;
+  border-collapse: collapse;
+  background-color: #0d0d0d;
+}
+
+.ficha img.arma {
+  width: 100%;
+  display: block;
+}
+
+.ficha caption {
+  background-color: #cc0000;
+  color: #ffffff;
+  padding: 8px;
+}
+
+.ficha th,
+.ficha td {
+  padding: 8px;
+  border-bottom: 1px solid #4c0b0b;
+  text-align: left;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.ficha th[colspan="2"] {
+  background-color: #cc0000;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ficha ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.ficha figure img {
+  width: 100%;
+}
+
+.ficha figure figcaption {
+  text-align: center;
+}
+
+.ficha .sinborder {
+  border: none;
+}
+
+.ficha caption h2 {
+  color: #ffffff;
+  font-size: 1em;
+  margin: 0;
+}
+
+.ficha .sinpadding {
+  padding: 0;
+}
