@@ -5,8 +5,14 @@ body {
   width: 50%;
   margin: 0 auto;
   padding: 20px 10px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
-
+main {
+  flex-grow: 1;
+}
 a {
   color: #fcb93e;
 }
@@ -35,4 +41,3 @@ p::first-letter {
   font-size: 25px;
   font-weight: bold;
 }
-
