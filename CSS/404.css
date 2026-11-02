@@ -1,0 +1,64 @@
+.error {
+  text-align: center;
+}
+
+/* para que no tenga la letra grande al principio :D */
+.error p::first-letter {
+  font-size: inherit;
+  color: inherit;
+}
+
+.error-codigo {
+  font-size: 120px;
+  color: #cc0000;
+  margin: 20px 0 0 0;
+  animation: luz-que-falla 3s infinite;
+}
+
+.error-muerte {
+  font-size: 40px;
+  color: #ff0000;
+  letter-spacing: 8px;
+  margin: 0 0 20px 0;
+}
+
+.error .galeria {
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.error-botones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.error-botones .btnpulse:hover {
+  background-color: #4c0b0b;
+}
+
+@keyframes luz-que-falla {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0.2;
+  }
+  10% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0.4;
+  }
+  64% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
