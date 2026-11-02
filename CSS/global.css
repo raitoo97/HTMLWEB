@@ -26,6 +26,10 @@ h3 {
 h4 {
   color: #c8892b;
 }
+
+h5 {
+  color: #b8860b;
+}
 p::first-letter {
   color: #e6e6e6;
   font-size: 25px;
