@@ -1,3 +1,15 @@
+@keyframes titilar {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .imagenesfloat {
   float: left;
   margin: 0 20px 10px 0;
@@ -10,6 +22,7 @@
 .imagen-texto {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   gap: 20px;
   align-items: flex-start;
   justify-content: flex-start;
@@ -27,6 +40,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
+  a {
+    text-decoration: none;
+  }
 }
 
 .pieza_arma {
@@ -53,4 +69,44 @@
 
 .retrato figcaption {
   font-size: 14px;
+}
+
+.retrato-grande {
+  margin: 0;
+}
+
+.retrato-grande img {
+  width: 220px;
+  height: 300px;
+  object-fit: contain;
+  background-color: #0d0d0d;
+  border: 2px solid #cc0000;
+  display: block;
+  transition:
+    transform 0.3s,
+    border-color 0.3s;
+}
+
+.retrato-grande figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8px;
+  transition: translate 0.3s;
+}
+
+.retrato-grande:hover img {
+  border-color: #fcb93e;
+  transform: scale(1.05);
+  animation: titilar 1s infinite;
+}
+
+.retrato-grande:hover figcaption {
+  translate: 0 20px;
+}
+
+.profesion {
+  display: block;
+  font-size: 12px;
+  color: #b3b3b3;
+  margin-top: 4px;
 }
