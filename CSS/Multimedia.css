@@ -87,7 +87,7 @@
 }
 
 .retrato-grande figcaption {
- font-size: 14px;
+  font-size: 14px;
   text-align: center;
   margin-top: 8px;
   transition: translate 0.3s;
@@ -96,7 +96,7 @@
 .retrato-grande:hover img {
   border-color: #fcb93e;
   transform: scale(1.05);
-  animation:titilar 1s infinite;
+  animation: titilar 1s infinite;
 }
 
 .retrato-grande:hover figcaption {
