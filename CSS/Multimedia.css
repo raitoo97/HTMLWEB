@@ -10,10 +10,6 @@
   }
 }
 
-.imagenesfloat {
-  float: left;
-  margin: 0 20px 10px 0;
-}
 .logo {
   width: 180px;
   vertical-align: middle;
@@ -45,10 +41,11 @@
   }
 }
 
+/* pieza_arma: mismo ancho (200px) */
 .pieza_arma {
   width: 200px;
   margin: 0;
-  flex-shrink: 0;
+  flex-shrink: 0; /* con 0 indica que el elemento no se reduce, por lo que conserva el tamaño que tiene definido en CSS (width, por ejemplo), aunque no haya espacio suficiente en el contenedor flex. el valor por defecto es 1 */
 }
 
 .pieza_arma img {
@@ -59,6 +56,7 @@
   font-size: 14px;
 }
 
+/* retrato: mismo alto (150px) */
 .retrato {
   margin: 0;
 }
@@ -75,6 +73,7 @@
   margin: 0;
 }
 
+/* retrato grande para pagina de categoria */
 .retrato-grande img {
   width: 220px;
   height: 300px;
