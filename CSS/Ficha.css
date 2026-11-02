@@ -24,12 +24,18 @@
   border-bottom: 1px solid #4c0b0b;
   text-align: left;
   font-size: 14px;
+  vertical-align: top;
 }
 
 .ficha th[colspan="2"] {
   background-color: #cc0000;
   color: #ffffff;
   text-align: center;
+}
+
+.ficha ul {
+  margin: 0;
+  padding-left: 20px;
 }
 
 .ficha figure img {

@@ -42,3 +42,15 @@
 .pieza_arma figcaption {
   font-size: 14px;
 }
+
+.retrato {
+  margin: 0;
+}
+
+.retrato img {
+  height: 150px;
+}
+
+.retrato figcaption {
+  font-size: 14px;
+}
