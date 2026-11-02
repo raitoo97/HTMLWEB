@@ -56,3 +56,8 @@ header {
   background-color: #000000;
   z-index: 1;
 }
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+}
