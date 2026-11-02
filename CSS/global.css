@@ -41,3 +41,9 @@ p::first-letter {
   font-size: 25px;
   font-weight: bold;
 }
+header {
+  position: sticky;
+  top: 0;
+  background-color: #000000;
+  z-index: 1;
+}
