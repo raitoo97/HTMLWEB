@@ -6,7 +6,6 @@
 .error p::first-letter {
   font-size: inherit;
   color: inherit;
-  font-weight: inherit;
 }
 
 .error-codigo {
