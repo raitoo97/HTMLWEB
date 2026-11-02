@@ -96,16 +96,16 @@
     </header>
     <main>
         <article>
+            <hr>
             <h2>Contacto</h2>
             <p>
                 ¿Encontraste un error, querés sugerir una página nueva o tenés una consulta sobre la wiki? Completá el
                 formulario y dejanos tu mensaje.
             </p>
         </article>
-        <hr />
         <article>
             <form action="" method="get">
-                <fieldset>
+                <fieldset class="opciones">
                     <legend>Dejanos tu mensaje</legend>
                     <section class="campo">
                         <label for="nombre">Nombre</label>
@@ -113,93 +113,90 @@
                     </section>
                     <section class="campo">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required />
+                        <input type="email" id="email" name="email" required placeholder="zombie@gmail.com" />
                     </section>
-                    <section class="campo">
-                        <label>Motivo</label>
-                        <input type="radio" id="consulta" name="motivo" value="consulta">
-                        <label for="consulta">Consulta</label>
-                        <input type="radio" id="error" name="motivo" value="error">
-                        <label for="error">Reportar un error</label>
-                        <input type="radio" id="sugerencia" name="motivo" value="sugerencia">
-                        <label for="sugerencia">Sugerencia</label>
-                    </section>
+                    <fieldset class="opciones">
+                        <legend>Motivo</legend>
+                        <label><input type="radio" name="motivo" value="consulta" /> Consulta</label>
+                        <label><input type="radio" name="motivo" value="error" /> Reportar un error</label>
+                        <label><input type="radio" name="motivo" value="sugerencia" /> Sugerencia</label>
+                    </fieldset>
                     <section class="campo">
                         <label for="mensaje">Mensaje</label>
                         <textarea id="mensaje" name="mensaje" required></textarea>
                     </section>
-                    <fieldset>
-                        <legend>Tus favoritos (opcional)</legend>
-                        <p>En las listas, mantené apretado Ctrl (o Cmd en Mac) para elegir más de uno.</p>
-                        <p>Personaje principal favorito</p>
-                        <section>
-                            <label for="pj_principal">Personajes secundarios favoritos</label>
-                            <select id="pj_principal" name="pj_principal[]" multiple size="1">
-                                <option value="leon">Leon S. Kennedy</option>
-                                <option value="claire">Claire Redfield</option>
-                                <option value="ada">Ada Wong</option>
-                                <option value="william">William Birkin</option>
-                                <option value="sherry">Sherry Birkin</option>
-                                <option value="kendo">Robert Kendo</option>
-                            </select>
-                        </section>
-                        <section>
-                            <label for="pj_secundario">Personajes secundarios favoritos</label>
-                            <select id="pj_secundario" name="pj_secundario[]" multiple size="1">
-                                <option value="irons">Brian Irons</option>
-                                <option value="annette">Annette Birkin</option>
-                                <option value="hunk">Hunk</option>
-                                <option value="marvin">Marvin Branagh</option>
-                                <option value="ben">Ben Bertolucci</option>
-                                <option value="kendo">Robert Kendo</option>
-                            </select>
-                        </section>
-                        <section>
-                            <label for="enemigo">Enemigos favoritos</label>
-                            <select id="enemigo" name="enemigo" multiple size="1">
-                                <option value="licker">Licker</option>
-                                <option value="zombie">Zombie</option>
-                                <option value="planta43">Planta 43</option>
-                                <option value="caiman">Caimán</option>
-                                <option value="perro">Perro zombi</option>
-                                <option value="evolved">Evolved Licker</option>
-                                <option value="arana">Araña gigante</option>
-                                <option value="cuervos">Cuervos</option>
-                                <option value="polilla">Polilla gigante</option>
-                                <option value="tyrant">Tyrant T-103</option>
-                            </select>
-                        </section>
-                        <section class>
-                            <label for="arma">Armas favoritas</label>
-                            <select id="arma" name="arma" multiple size="1">
-                                <option value="vp70">Heckler y Koch VP70</option>
-                                <option value="browning">Browning HP</option>
-                                <option value="beretta">Beretta M92FS</option>
-                                <option value="remington">Remington M1100-P</option>
-                                <option value="remington_custom">Remington M1100-P Custom</option>
-                                <option value="colt">Colt Single Action Army</option>
-                                <option value="desert">Desert Eagle</option>
-                                <option value="ballesta">Ballesta</option>
-                                <option value="lanzadescargas">Lanzadescargas</option>
-                                <option value="mac11">Ametralladora MAC-11</option>
-                                <option value="lanzallamas">Lanzallamas</option>
-                                <option value="lanzagranadas">Lanzagranadas M79</option>
-                                <option value="gatling">Ametralladora Gatling</option>
-                                <option value="lanzacohetes">Lanzacohetes FIM-92 Stinger</option>
-                                <option value="cuchillo">Cuchillo</option>
-                            </select>
-                        </section>
-                    </fieldset>
-                    <section class="campo-check">
-                        <input type="checkbox" id="acepto" name="acepto" required />
-                        <label for="acepto">Acepto que mis datos se usen solo para responder el mensaje</label>
+                </fieldset>
+                <hr>
+                <fieldset class="opciones">
+                    <legend>Tus favoritos (opcional)</legend>
+                    <section class="campo">
+                        <label for="pj_principal">Personajes principales favoritos</label>
+                        <select id="pj_principal" name="pj_principal[]" multiple size="1">
+                            <option value="leon">Leon S. Kennedy</option>
+                            <option value="claire">Claire Redfield</option>
+                            <option value="ada">Ada Wong</option>
+                            <option value="william">William Birkin</option>
+                            <option value="sherry">Sherry Birkin</option>
+                        </select>
                     </section>
-                    <button type="submit">Enviar</button>
+                    <section class="campo">
+                        <label for="pj_secundario">Personajes secundarios favoritos</label>
+                        <select id="pj_secundario" name="pj_secundario[]" multiple size="1">
+                            <option value="irons">Brian Irons</option>
+                            <option value="annette">Annette Birkin</option>
+                            <option value="hunk">Hunk</option>
+                            <option value="marvin">Marvin Branagh</option>
+                            <option value="ben">Ben Bertolucci</option>
+                            <option value="kendo">Robert Kendo</option>
+                        </select>
+                    </section>
+                    <section class="campo">
+                        <label for="enemigo">Enemigos favoritos</label>
+                        <select id="enemigo" name="enemigo[]" multiple size="1">
+                            <option value="licker">Licker</option>
+                            <option value="zombie">Zombie</option>
+                            <option value="planta43">Planta 43</option>
+                            <option value="caiman">Caimán</option>
+                            <option value="perro">Perro zombi</option>
+                            <option value="evolved">Evolved Licker</option>
+                            <option value="arana">Araña gigante</option>
+                            <option value="cuervos">Cuervos</option>
+                            <option value="polilla">Polilla gigante</option>
+                            <option value="tyrant">Tyrant T-103</option>
+                        </select>
+                    </section>
+                    <section class="campo">
+                        <label for="arma">Armas favoritas</label>
+                        <select id="arma" name="arma[]" multiple size="1">
+                            <option value="vp70">Heckler y Koch VP70</option>
+                            <option value="browning">Browning HP</option>
+                            <option value="beretta">Beretta M92FS</option>
+                            <option value="remington">Remington M1100-P</option>
+                            <option value="remington_custom">Remington M1100-P Custom</option>
+                            <option value="colt">Colt Single Action Army</option>
+                            <option value="desert">Desert Eagle</option>
+                            <option value="ballesta">Ballesta</option>
+                            <option value="lanzadescargas">Lanzadescargas</option>
+                            <option value="mac11">Ametralladora MAC-11</option>
+                            <option value="lanzallamas">Lanzallamas</option>
+                            <option value="lanzagranadas">Lanzagranadas M79</option>
+                            <option value="gatling">Ametralladora Gatling</option>
+                            <option value="lanzacohetes">Lanzacohetes FIM-92 Stinger</option>
+                            <option value="cuchillo">Cuchillo</option>
+                        </select>
+                    </section>
+                </fieldset>
+                <section class="campo-check">
+                    <input type="checkbox" id="acepto" name="acepto" required />
+                    <label for="acepto">Acepto que mis datos se usen solo para responder el mensaje</label>
+                </section>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
             </form>
         </article>
     </main>
-    <hr />
     <footer>
+        <hr />
         <p>
             Resident Evil 2 (1998) - Mini Wiki Contenido creado con fines
             educativos. © 1998 Capcom. Resident Evil 2 es propiedad de Capcom.

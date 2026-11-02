@@ -1,0 +1,95 @@
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0;
+}
+
+.campo-check {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+form legend {
+  color: #fcb93e;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+  background-color: #0d0d0d;
+  color: #e6e6e6;
+  border: 1px solid #4c0b0b;
+  padding: 8px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form select:focus,
+form textarea:focus {
+  outline: 2px solid #fcb93e;
+}
+
+form textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  accent-color: #cc0000;
+}
+
+form button {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+form button[type="submit"] {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+form button[type="submit"]:hover {
+  background-color: #ff0000;
+}
+
+form button[type="reset"] {
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+  border: 1px solid #4c0b0b;
+}
+
+form button[type="reset"]:hover {
+  background-color: #4c0b0b;
+}
+
+form fieldset fieldset legend {
+  color: #e6e6e6;
+  margin-bottom: 0;
+}
+
+form option {
+  background-color: #0d0d0d;
+  color: #e6e6e6;
+}
+
+form option:checked {
+  background-color: #4c0b0b;
+}
