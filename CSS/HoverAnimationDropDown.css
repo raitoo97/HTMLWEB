@@ -24,6 +24,7 @@
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
+  z-index: 1;
 }
 .dropdown-content a {
   color: #e6e6e6;
